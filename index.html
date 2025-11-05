@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SchoolHTMLDeveloper | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f0f0f;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    a {
+      color: #a855f7;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #c084fc;
+    }
 
+    /* Header */
+    header {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+      border-bottom: 2px solid #3f3f3f;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #a855f7;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #d1d5db;
+    }
+
+    /* Main container */
+    main {
+      max-width: 900px;
+      margin: -2rem auto 2rem;
+      padding: 2rem;
+    }
+
+    section {
+      background-color: #1a1a1a;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(168, 85, 247, 0.4);
+    }
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #c084fc;
+      border-bottom: 2px solid #3f3f3f;
+      padding-bottom: 0.5rem;
+    }
+
+    /* Repositories list */
+    .repo-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .repo-list li {
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+
+    /* Contact links */
+    .contact a {
+      display: inline-block;
+      margin-right: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #a855f7;
+      color: #fff;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+    .contact a:hover {
+      background-color: #c084fc;
+      transform: translateY(-2px);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #999;
+      border-top: 1px solid #3f3f3f;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SchoolHTMLDeveloper</h1>
+    <p>HTML | JavaScript | Web Projects | Learning & Innovation</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m <strong>SchoolHTMLDeveloper</strong>, a passionate web developer focusing on building interactive HTML/JavaScript projects. I enjoy creating tools, experiments, and utilities that are both practical and educational. Explore my work below to see what I’ve been building!</p>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <ul class="repo-list">
+        <li><a href="https://github.com/SchoolHTMLDeveloper/ai1" target="_blank" rel="noopener">ai1</a> ― JavaScript AI experiment forked from RobloxScripter2025</li>
+      </ul>
+      <p>See all projects on <a href="https://github.com/SchoolHTMLDeveloper?tab=repositories" target="_blank" rel="noopener">GitHub</a>.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact & Links</h2>
+      <p class="contact">
+        <a href="https://github.com/SchoolHTMLDeveloper" target="_blank" rel="noopener">GitHub</a>
+      </p>
+      <p>Feel free to reach out for collaborations, questions, or just to say hi!</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 SchoolHTMLDeveloper. Built with ❤️ using HTML & CSS.
+  </footer>
+
+</body>
+</html>
